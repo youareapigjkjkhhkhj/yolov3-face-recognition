@@ -20,9 +20,9 @@
 
 文件权重位置如下图所示：
 
-<center>
+<div align=center> 
     <img src="https://github.com/laugh12321/yolov3-face-recognition/blob/main/data/file_tree.png" />
-</center>
+</div>
 
 # 使用方法
 
@@ -46,6 +46,6 @@ conda install --yes --file requirements.txt
 python test.py
 ```
 
-<b>注1: </b>创建新数据集后，创建新数据集后，仅第一次需运行`test.py`第248、249行的 `save_vector_csv`、 t`rain_face_svm` 函数，之后注释即可 (16行引用同理)
+<b>注1: </b>创建新数据集后，创建新数据集后，仅第一次需运行`test.py`第248、249行的 `save_vector_csv`、 `train_face_svm` 函数，之后注释即可 (16行引用同理)
 
 <b>注2: </b>具体使用方法参考👉[原仓库](https://gitee.com/windandwine/Argus/blob/master/README.md)
