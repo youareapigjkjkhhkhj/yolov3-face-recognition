@@ -13,7 +13,7 @@ import setting.facenet_args as facenet_args
 from utils.utils import gpu_nms, plot_one_box, letterbox_resize
 from net.yolo_model import yolov3
 from net.facenet_model import FaceNet
-
+# from preprocessing.pre_tools import save_vector_csv, train_face_svm
 
 def build_yolo():
     """
@@ -242,4 +242,10 @@ def main():
 
 
 if __name__ == '__main__':
+    """
+    创建新数据集后，仅第一次需运行 save_vector_csv、 train_face_svm 函数，之后注释即可 (16行引用同理)
+    """
+    # save_vector_csv()
+    # train_face_svm()
+
     main()
