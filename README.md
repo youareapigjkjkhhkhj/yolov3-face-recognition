@@ -40,11 +40,15 @@ activate your_env_name
 conda install --yes --file requirements.txt
 ```
 
+> 如果这种方法不行则依次手动安装
+
 运行代码
 
 ```
 python test.py
 ```
+
+---
 
 <b>注1: </b>创建新数据集后，创建新数据集后，仅第一次需运行`test.py`第248、249行的 `save_vector_csv`、 `train_face_svm` 函数，之后注释即可 (16行引用同理)
 
